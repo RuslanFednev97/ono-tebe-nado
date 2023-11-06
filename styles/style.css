@@ -1,5 +1,5 @@
 .header {
-    padding: 92px 50px 92px 52px;
+    padding: 92px 49px 92px 52px;
     display: grid;
     grid-template-columns: 1fr 149px 1fr;
     justify-content: space-between;
@@ -43,6 +43,7 @@
     align-self: center;
     list-style: none;
     font-size: 18px;
+    width: 240px;
     line-height: 1.35;
     text-underline-offset: 4px;
 }
@@ -53,7 +54,6 @@
     background-size: cover;
     background-position: 2px -17px;
     position: relative;
-    z-index: -2;
 }
 
 .overlay {
@@ -61,30 +61,31 @@
     height: 100%;
     width: 100%;
     opacity: 0.6;
-    z-index: -1;
+    z-index: 1;
     background: #000;
 }
 
 .cover__title {
-    padding: 165px 50px 0px;
+    padding: 161px 50px 0px 50px;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
     position: relative;
+    z-index: 2;
 }
 
 .aligned-text {
     display: block;
-    height: 105px;
     color: #FFF;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.15;
+    line-height: 1.22;
     letter-spacing: 30px;
     text-transform: uppercase;
     margin-left: 2px;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 
 .letter-spacing-extended {
@@ -111,17 +112,18 @@
 }
 
 .cover__description {
-    padding: 138px 48px 50px 50px;
+    padding: 126px 48px 50px 50px;
     display: flex;
     justify-content: end;
     position: relative;
+    z-index: 2;
 
 }
 
 .cover__description-text {
     color: #FFF;
     align-self: center;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -134,7 +136,7 @@
 .bet-button {
     color: #FFF;
     align-self: center;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -148,12 +150,12 @@
 .lots {
     display: flex;
     flex-direction: column;
-    padding: 180px 52px 0;
+    padding: 178px 52px 0;
 }
 
 .lots__heading {
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -170,29 +172,32 @@
 
 .card {
     width: 430px;
-    height: 450px;
+    min-height: 450px;
     padding: 50px 40px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
 }
 
 .card__title {
     color: #ffffff;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%; /* 26.4px */
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
     text-transform: uppercase;
 }
 
 .card__text {
     color: #ffffff;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -204,7 +209,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: -2;
 }
 
 .card_type_book {
@@ -212,7 +216,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: -2;
 }
 
 .card_type_picture {
@@ -220,12 +223,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: -2;
 }
 
 .lots__look-more-link {
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -268,7 +270,7 @@
 
 .about__title {
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -279,7 +281,7 @@
 
 .about__text {
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -290,7 +292,7 @@
 }
 
 .footer {
-    padding: 180px 48px 90px 52px;
+    padding: 181px 48px 90px 51px;
     display: flex;
     justify-content: space-between;
 
@@ -310,7 +312,7 @@
 .footer__menu-list-item {
     color: #000;
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
