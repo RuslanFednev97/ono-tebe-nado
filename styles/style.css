@@ -48,7 +48,7 @@
 }
 
 .cover {
-    background-image: url(/Users/fedne/proekt2/ono-tebe-nado/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 2px -17px;
