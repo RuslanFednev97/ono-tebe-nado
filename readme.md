@@ -1,1 +1,1 @@
-https://github.com/RuslanFednev97/ono-tebe-nado.git
+httpsgithub.comRuslanFednev97ono-tebe-nado.git
